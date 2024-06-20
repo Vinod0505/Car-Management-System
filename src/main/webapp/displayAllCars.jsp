@@ -26,6 +26,7 @@
 
 		</tr>
 		<%
+		if(cars!=null && !cars.isEmpty()){
 		for (Car car : cars) {
 		%>
 		<tr>
@@ -38,7 +39,7 @@
 
 		</tr>
 		<%
-		}
+		}}
 		%>
 	</table>
 
