@@ -8,20 +8,21 @@ public class Car {
 
 	@Id
 	private int carId;
-	private String carName;
+	private String carBrand;
 	private String carModel;
 	private int carPrice;
+	
 	public int getCarId() {
 		return carId;
 	}
 	public void setCarId(int carId) {
 		this.carId = carId;
 	}
-	public String getCarName() {
-		return carName;
+	public String getCarBrand() {
+		return carBrand;
 	}
-	public void setCarName(String carName) {
-		this.carName = carName;
+	public void setCarBrand(String carBrand) {
+		this.carBrand = carBrand;
 	}
 	public String getCarModel() {
 		return carModel;
