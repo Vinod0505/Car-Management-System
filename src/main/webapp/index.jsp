@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Welcme to Car DashBoard</h1>
-<a href="">ADD NEW CAR</a>
+<a href="AddCar.jsp">ADD NEW CAR</a>
 <br>
 <a href=""> DISPLAY ALL CARS</a>
 </body>
